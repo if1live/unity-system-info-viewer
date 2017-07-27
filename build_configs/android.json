@@ -1,0 +1,41 @@
+{
+  "unityPath": "C:\\Program Files\\Unity-5.6.2p3",
+  "projectPath": "./",
+
+  "buildBasePath": "./output",
+  "buildPath": "{{.ConfigName}}-{{.Year}}-{{.Month}}-{{.Day}}-{{.ShortRevision}}.apk",
+
+  "method": "Assets.Minamo.Editor.EntryPoint.Build",
+
+  "build": {
+    "targetGroup": "android",
+    "target": "android",
+
+    "options": {
+      "development": true,
+      "allowDebugging": true
+    }
+  },
+
+  "identification": {
+    "packageName": "so.libsora.unitysysteminfoviewer",
+    "versionName": "0.0.1",
+    "versionCode": 1
+  },
+
+  "vrDevices": {
+    "enabled": false
+  },
+
+  "androidSdk": {
+    "min": 19,
+    "target": 0
+  },
+
+  "keystore": {
+    "keystoreName": "",
+    "keystorePass": "",
+    "keyaliasName": "",
+    "keyaliasPass": ""
+  }
+}
