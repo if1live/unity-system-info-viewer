@@ -1,5 +1,5 @@
-# unity-system-info-viewer
-Unity System Info viewer
+# Unity System Info viewer
+Display Unity's [SystemInfo](https://docs.unity3d.com/ScriptReference/SystemInfo.html).
 
 ![screenshot-android](https://raw.githubusercontent.com/if1live/unity-system-info-viewer/master/document/screenshot.png)
 
